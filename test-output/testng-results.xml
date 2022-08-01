@@ -1,24 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37927" started-at="2022-07-28T20:19:04 IST" finished-at="2022-07-28T20:19:42 IST">
+  <suite name="Default suite" duration-ms="74408" started-at="2022-08-01T18:15:15 IST" finished-at="2022-08-01T18:16:29 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="37927" started-at="2022-07-28T20:19:04 IST" finished-at="2022-07-28T20:19:42 IST">
-      <class name="para.ParamatWithXML">
-        <test-method status="PASS" signature="login(java.lang.String)[pri:0, instance:para.ParamatWithXML@176b067]" name="login" duration-ms="37569" started-at="2022-07-28T20:19:05 IST" finished-at="2022-07-28T20:19:42 IST">
+    <test name="Default test" duration-ms="74408" started-at="2022-08-01T18:15:15 IST" finished-at="2022-08-01T18:16:29 IST">
+      <class name="para.SeleniumDataProvider">
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:para.SeleniumDataProvider@49835d]" name="loginTest" duration-ms="24828" started-at="2022-08-01T18:15:15 IST" data-provider="dataprovider" finished-at="2022-08-01T18:15:39 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- para.ParamatWithXML -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:para.SeleniumDataProvider@49835d]" name="loginTest" duration-ms="19333" started-at="2022-08-01T18:15:39 IST" data-provider="dataprovider" finished-at="2022-08-01T18:15:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:para.SeleniumDataProvider@49835d]" name="loginTest" duration-ms="30157" started-at="2022-08-01T18:15:59 IST" data-provider="dataprovider" finished-at="2022-08-01T18:16:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- para.SeleniumDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

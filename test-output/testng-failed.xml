@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="para.Paramatrization">
+      <class name="para.SeleniumDataProvider">
         <methods>
-          <include name="login"/>
+          <include name="loginTest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- para.Paramatrization -->
+      </class> <!-- para.SeleniumDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
